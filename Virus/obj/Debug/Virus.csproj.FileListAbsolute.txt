@@ -1,0 +1,13 @@
+D:\Project\Virus\Virus\bin\Debug\Virus.exe.config
+D:\Project\Virus\Virus\bin\Debug\Virus.exe
+D:\Project\Virus\Virus\bin\Debug\Virus.pdb
+D:\Project\Virus\Virus\obj\Debug\Virus.csprojResolveAssemblyReference.cache
+D:\Project\Virus\Virus\obj\Debug\Virus.Properties.Resources.resources
+D:\Project\Virus\Virus\obj\Debug\Virus.csproj.GenerateResource.Cache
+D:\Project\Virus\Virus\obj\Debug\Virus.exe
+D:\Project\Virus\Virus\obj\Debug\Virus.pdb
+D:\Project\Virus\Virus\obj\Debug\Virus.Ghost.resources
+D:\Project\Virus\Virus\bin\Debug\Virus.exe.manifest
+D:\Project\Virus\Virus\bin\Debug\Virus.application
+D:\Project\Virus\Virus\obj\Debug\Virus.exe.manifest
+D:\Project\Virus\Virus\obj\Debug\Virus.application

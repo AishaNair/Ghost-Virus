@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Virus.exe" version="1.0.0.0" publicKeyToken="209a3605fa2e4422" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Virus" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Virus.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Virus.exe" size="89088">
+      <assemblyIdentity name="Virus" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1xjQwziZ32e8+CiDr3LUZNA07QuM9/suG/nTdfFgnfk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Virus.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=abc-PC\abc" issuerKeyHash="fcb306f2fef38c202a977f49ea539f4663e82450" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>erKXRxrQU/Z9QKUoBeh886cTDi5mfGCZHSpxU8ZlDQ8=</DigestValue></Reference></SignedInfo><SignatureValue>W8LSrga3BbizhK0nS5eE/knPvrlgMx/4KzcEZFBZ2m5InNO2SyEXWqEc4UbkHFqM+p+Pjr5Dxtj0qqbp8CekLPYk0N/hWQXjesWL38IxM/VPrLDDqdslvw6lUkVaa1xgpyOkVSWHbLEEQb2/3gSpogwFnCYc5iHGOAnHd9kuWhk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5O1GadSKNkULRM+s/AqLVwA04VZWvpKlZsknDIJEmXxYWMSxbRKJYzJkalLWHW9GiADxe/Jd+7k56TCJkD2NmqL4czD6Gu9qZPPUftV6HmkaBKoz3dN5i5U/wJ3Sy2XZ4HRJt9lEO7ohZ4YxaEJJV1lNyVg8yhPiHDGm2uhuJ7E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0f0d65c653712a1d99607c662e0e13a7f37ce80528a5407df653d01a4797b27a" Description="" Url=""><as:assemblyIdentity name="Virus.exe" version="1.0.0.0" publicKeyToken="209a3605fa2e4422" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=abc-PC\abc</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4zd1gBq+zjefe2zUYNlV8Rj3aZRibiQ6ZgQGc+CGhbM=</DigestValue></Reference></SignedInfo><SignatureValue>iRIoRH1iQBfk84YRO0VBr+G0Juq8gFnpJA7MFksLE+/9NK4u/sPLgiEm3OBKMfzgeq0gFqeBfIA5i7CFGdfa3T0IXKbTnuMSV64Y+qk3c3cuGfVdQbG9LD2dXUbO2T4nh6mV7YtNkVB4gy/OpQdPROA/3gsFS0ATop3/Xj8XgqA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5O1GadSKNkULRM+s/AqLVwA04VZWvpKlZsknDIJEmXxYWMSxbRKJYzJkalLWHW9GiADxe/Jd+7k56TCJkD2NmqL4czD6Gu9qZPPUftV6HmkaBKoz3dN5i5U/wJ3Sy2XZ4HRJt9lEO7ohZ4YxaEJJV1lNyVg8yhPiHDGm2uhuJ7E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQFRF3hQqcwpBJWnLKWjnRBTANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAYQBiAGMALQBQAEMAXABhAGIAYzAeFw0xMzA0MjUwNzAzNTFaFw0xNDA0MjUxMzAzNTFaMB8xHTAbBgNVBAMeFABhAGIAYwAtAFAAQwBcAGEAYgBjMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDk7UZp1Io2RQtEz6z8CotXADThVla+kqVmyScMgkSZfFhYxLFtEoljMmRqUtYdb0aIAPF78l37uTnpMImQPY2aovhzMPoa72pk89R+1XoeaRoEqjPd03mLlT/AndLLZdngdEm32UQ7uiFnhjFoQklXWU3JWDzKE+IcMaba6G4nsQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGkpvm/cP5l8f8+9fRVA2faBSL9HqxMMQNGPZJxZqURs6gu7/Nu3ukCWYW0vVDG1mtfjHHaBLq6ZWCYZf62BIO+N1vRoQoXnfFr2rJjZgWbp9mkyUpiTvJZJLpS+4jfNfMQeEKzobqSzEw4lVV+piIY/152BW0ZJA+lCLoOSjDAi</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
